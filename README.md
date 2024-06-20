@@ -29,13 +29,13 @@ The results are viewable on Streamlit, where you can also upload a dataset and c
 <p>1. Install requirements</p>
 
 ```
-pip install -r requiremets.txt
+pip install -r     ./CATS-online-anomaly-detection/Streamlit_result_visualization/requirements.txt
 ```
 
 <p>2. Run the streamlit app</p>
 
 ```
-streamlit run ./app.py
+streamlit run ./CATS-online-anomaly-detection/Streamlit_result_visualization/app.py
 ```
 
 <h2>🫵 Build your model </h2>
