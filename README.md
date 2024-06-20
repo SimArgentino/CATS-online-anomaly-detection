@@ -4,10 +4,24 @@
 
 <h2>📜 Project Description:</h2>
 
+The goal of this project is to create a notebook for anomaly detection and to simulate online detection using Kafka.
+
+The dataset used is the Controlled Anomalies Time Series (CATS) dataset. The notebook is designed to easily swap out the dataset to perform anomaly detection. The neural network used is an Autoencoder.
+
+For this project, 16 models were trained to evaluate the results in different scenarios by assessing the following characteristics:
+
+    Optimizer: Adam-RMSprop
+    Epochs: 30-60
+    Threshold selection percentile
+    Two different autoencoder models
+
+The results are viewable on Streamlit, where you can also upload a dataset and choose your model to perform anomaly detection. The interface allows you to select the model section for anomaly detection in real time and visualize the results.
 
 <h2>📊 Project Graph:</h2>
   
   ![ProjectGraph](https://github.com/SimArgentino/CATS-online-anomaly-detection/assets/93777986/617f1036-a83a-4aff-9444-5c033e9b20ea)
+
+
 
 <h2>🛠️ Installation Steps:</h2>
 <p>To view our results you can run the Streamlit app:</p>
