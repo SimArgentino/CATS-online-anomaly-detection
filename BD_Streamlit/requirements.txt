@@ -1,0 +1,10 @@
+streamlit
+streamlit_option_menu
+tensorflow
+tensorflow-io
+numpy
+plotly.express
+keras
+scikit-learn
+evaluate
+matplotlib
