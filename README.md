@@ -6,7 +6,7 @@
 
 The goal of this project is to create a notebook for anomaly detection and to simulate online detection using Kafka.
 
-The dataset used is the Controlled Anomalies Time Series (CATS) dataset. The notebook is designed to easily swap out the dataset to perform anomaly detection. The neural network used is an Autoencoder.
+The dataset used is the Controlled Anomalies Time Series (CATS) dataset. The notebook is designed to swap out the dataset to perform anomaly detection easily. The neural network used is an Autoencoder.
 
 For this project, 16 models were trained to evaluate the results in different scenarios by assessing the following characteristics:
 
@@ -15,7 +15,7 @@ For this project, 16 models were trained to evaluate the results in different sc
     Threshold selection percentile
     Two different autoencoder models
 
-The results are viewable on Streamlit, where you can also upload a dataset and choose your model to perform anomaly detection. The interface allows you to select the model section for anomaly detection in real time and visualize the results.
+The results are viewable on Streamlit, where you can also upload a dataset and choose your model to perform anomaly detection. The interface allows you to select the model section for anomaly detection in real-time and visualize the results.
 
 <h2>📊 Project Graph: </h2>
   
